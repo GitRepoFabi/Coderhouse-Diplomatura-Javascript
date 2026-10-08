@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Café Colombia - Huila (250g)",
+    "precio": 1450,
+    "categoria": "granos",
+    "imagen": "./assets/img/cafe-colombia.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Prensa Francesa 600ml",
+    "precio": 3200,
+    "categoria": "cafeteras",
+    "imagen": "./assets/img/prensa.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Café Americano",
+    "precio": 1200,
+    "categoria": "bebidas",
+    "imagen": "./assets/img/cafe.jpg"
+  }
+]

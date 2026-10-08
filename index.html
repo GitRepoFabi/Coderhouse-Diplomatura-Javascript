@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafetería Fabián</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Cafetería Fabián</h1>
+
+    <section class="filtros">
+      <input type="search" id="buscador" placeholder="Buscar producto..." />
+      <select id="filtro-categoria">
+        <option value="todas">Todas las categorías</option>
+      </select>
+    </section>
+
+    <p id="indicador-carga" class="mensaje">Cargando productos...</p>
+    <div id="contenedor-productos"></div>
+
+    <h2>Mi carrito</h2>
+    <div id="mi-carrito"></div>
+    <p id="total-carrito" class="carrito-total"></p>
+    <div class="carrito-acciones">
+      <button id="btn-vaciar" class="btn-secundario">Vaciar carrito</button>
+      <button id="btn-finalizar">Finalizar compra</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
